@@ -1,9 +1,10 @@
 {
   "name": "genbarcode",
   "version": "0.1.0",
+  "homepage": "https://127.0.0.1/genbarcode-test/",
   "private": true,
   "dependencies": {
-  "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "axios": "^1.7.9",
@@ -12,6 +13,7 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "file-saver": "^2.0.5",
+    "jsbarcode": "^3.11.6",
     "mssql": "^11.0.1",
     "multer": "^1.4.5-lts.1",
     "react-barcode": "^1.5.3",
@@ -23,15 +25,10 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "start:frontend": "cd frontend && react-scripts start",
-    "start:backend": "cd backend && node index.js",
-    "start": "concurrently \"yarn start:frontend\" \"yarn start:backend\"",
-    "clean": "cd frontend && rimraf build",
-    "build": "cd frontend && react-scripts build",
-    "lint": "cd frontend && eslint src --ext .js,.jsx",
-    "test": "cd frontend && react-scripts test",
-    "eject": "cd frontend && react-scripts eject",
-    "backend:watch": "cd backend && nodemon index.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
