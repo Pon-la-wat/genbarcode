@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/genbarcode-test/static/css/main.ca67ef22.css",
+    "main.js": "/genbarcode-test/static/js/main.2f849cb6.js",
+    "static/js/453.6796c3cd.chunk.js": "/genbarcode-test/static/js/453.6796c3cd.chunk.js",
+    "index.html": "/genbarcode-test/index.html",
+    "main.ca67ef22.css.map": "/genbarcode-test/static/css/main.ca67ef22.css.map",
+    "main.2f849cb6.js.map": "/genbarcode-test/static/js/main.2f849cb6.js.map",
+    "453.6796c3cd.chunk.js.map": "/genbarcode-test/static/js/453.6796c3cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca67ef22.css",
+    "static/js/main.2f849cb6.js"
+  ]
+}

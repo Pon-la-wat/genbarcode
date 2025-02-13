@@ -1,7 +1,7 @@
 {
   "name": "genbarcode",
   "version": "0.1.0",
-  "homepage": "https://127.0.0.1/genbarcode-test/",
+  "homepage": "https://127.0.0.1/genbarcode-app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -19,6 +19,7 @@
     "react-barcode": "^1.5.3",
     "react-data-table-component": "^7.6.2",
     "react-scripts": "^5.0.1",
+    "react-table": "^7.8.0",
     "styled-components": "^6.1.14",
     "web-vitals": "^2.1.0",
     "ws": "^8.18.0",

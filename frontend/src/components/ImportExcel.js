@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import * as XLSX from "xlsx";
 
 function ImportExcel() {
   const [file, setFile] = useState(null);
